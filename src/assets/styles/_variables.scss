@@ -1,0 +1,15 @@
+@use "sass:color";
+
+$font-family-sans-serif: 'Montserrat', sans-serif;
+$font-family-serif: "Georgia", "Times New Roman", serif;
+
+$uoc-corporate: #000078;
+$uoc-masterbrand: #73edff;
+$uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
+$fondo: #ace0f1;
+$mqMinWidth: 420px;
+$bg: black;
+$gris1: rgba(247, 247, 247);
+$gris: color.scale($gris1, $lightness: 55%);
+
+/*  linear-gradient(115deg, rgb(155, 198, 230) 30%, rgba(172,224,241,1) 53%, rgb(100, 179, 239) 100%); */
